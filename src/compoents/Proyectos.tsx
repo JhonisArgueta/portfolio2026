@@ -41,14 +41,14 @@ const projects: Project[] = [
     title: "Expense Tracker",
     images: ["imagenes/expense_tracker/imagen1.PNG", "imagenes/expense_tracker/imagen2.PNG", "imagenes/expense_tracker/imagen3.PNG"],
     description: "Aplicación de seguimiento de gastos con React Native y AsyncStorage.",
-    githubUrl: "https://github.com/JhoniArguetaLemus/expense_tracker"
+    githubUrl: "https://github.com/JhoniArguetaLemus/expense_tracker.git"
   },
   {
-    title: "AgroIA",
-    images: ["imagenes/agroia/imagen1.PNG", "imagenes/agroia/imagen2.PNG"],
-    description: "Aplicación para identificar enfermedades de plantas.",
-    githubUrl: "https://github.com/JhoniArguetaLemus/AgroIA.git"
-  },
+  title: "AgroIA",
+  images: ["imagenes/agroia/imagen1.PNG", "imagenes/agroia/imagen2.PNG"],
+  description: "Sistema de visión por computadora basado en inteligencia artificial que detecta y clasifica enfermedades en cultivos a partir de fotografías, proporcionando resultados precisos para mejorar la salud y productividad de las plantas.",
+  githubUrl: "https://github.com/JhoniArguetaLemus/AgroIA.git"
+},
   {
   title: "Tienda en Línea para Café Barrios",
   images: [
