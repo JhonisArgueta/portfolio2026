@@ -15,7 +15,7 @@ interface Technology {
   category: string;
 }
 
-type CategoryFilter = "all" | "web" | "mobile" | "backend" | "design";
+type CategoryFilter = "all" | "web" | "mobile" | "backend" | "design"|"testing"|"otros";
 
 interface CategoryTab {
   label: string;
@@ -70,7 +70,18 @@ const technologies: Technology[] = [
   { name: "Firebase",        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",          category: "backend" },
   { name: "MySQL",           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",             category: "backend" },
   { name: "Figma",           image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",             category: "design"  },
+  {name: "Supabase",         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",       category: "backend"},
+  {name: "Spring Boot",      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",            category: "backend"},
+  {name:"Junit",             image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-line.svg",                  category:"testing"},
+  {name:"Mockito",           image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mockito/mockito-plain.svg",              category:"testing"},
+  {name:"Java",              image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",                  category:"backend"},
+  {name:"Python",            image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",              category:"backend"},
+  {name:"Angular",           image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg",             category:"web"},
+  {name:"Git",               image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",                   category:"otros"},
+  {name:"GitHub",            image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",               category:"otros"},
+  {name:"Jenkins",           image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-plain.svg",              category:"otros"},
 ];
+
 
 const categories: CategoryTab[] = [
   { label: "Todas",   filter: "all"     },
@@ -78,6 +89,8 @@ const categories: CategoryTab[] = [
   { label: "Mobile",  filter: "mobile"  },
   { label: "Backend", filter: "backend" },
   { label: "Diseño",  filter: "design"  },
+  {label:"Testing",   filter:"testing"},
+  {label:"Otros",     filter:"otros"}
 ];
 
 // --- ProjectCard ---
