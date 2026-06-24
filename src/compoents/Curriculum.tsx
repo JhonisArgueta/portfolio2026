@@ -1,6 +1,6 @@
 export default function Curriculum() {
-  const cvPath = "/archivos/Curriculum.pdf";
-  const cvImagePreview = "/imagenes/cv.png"; 
+  const cvPath = "/archivos/Jhonis_Argueta_CV.pdf";
+  const cvImagePreview = "/imagenes/cv_tarjeta.avif"; 
 
   return (
     <section 
@@ -54,7 +54,7 @@ export default function Curriculum() {
               {/* Botón Descargar (Estilo Outline Adaptable) */}
               <a 
                 href={cvPath}
-                download="CV-Jhonis-Argueta.pdf"
+                download="Jhonis_Argueta_CV.pdf"
                 className="group flex items-center justify-center gap-2 px-8 py-3.5 bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 text-slate-700 dark:text-slate-300 font-semibold rounded-xl transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1"
               >
                 <DownloadIcon />

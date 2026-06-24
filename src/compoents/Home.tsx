@@ -38,7 +38,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-slate-600 dark:text-slate-400 max-w-lg mx-auto lg:mx-0 font-medium transition-colors duration-300">
-            Hola, soy Jhonis Argueta Lemus. Estudiante de Ingeniería de Sistemas transformando ideas complejas en código limpio, eficiente y escalable.
+            Hola, soy Jhonis Argueta. Ingeniero de Sistemas transformando ideas complejas en código limpio, eficiente y escalable.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">

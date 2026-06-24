@@ -30,18 +30,8 @@ const projects: Project[] = [
     images: ["imagenes/performance_pressure.png"],
     demoUrl: "https://www.performancepressurewash.com"
   },
-  {
-    title: "Aplicación para un restaurante",
-    description: "Aplicación para hacer pedidos de un restaurante",
-    images: ["imagenes/restaurante2.png"],
-    githubUrl: "https://github.com/JhoniArguetaLemus/restaurante_android"
-  },
-  {
-    title: "Distribuidora de Gas Vigil",
-    images: ["imagenes/distribuidora_vigil.png"],
-    demoUrl: "https://jhoniarguetalemus.github.io/distribuidora_saravia/",
-    githubUrl: "https://github.com/JhoniArguetaLemus/distribuidora_saravia.git"
-  },
+  
+  
   {
     title: "App de gestión de inventario",
     images: ["imagenes/tienda1.PNG", "imagenes/tienda2.PNG", "imagenes/tienda3.PNG", "imagenes/tienda4.PNG"],
@@ -58,7 +48,16 @@ const projects: Project[] = [
     images: ["imagenes/agroia/imagen1.PNG", "imagenes/agroia/imagen2.PNG"],
     description: "Aplicación para identificar enfermedades de plantas.",
     githubUrl: "https://github.com/JhoniArguetaLemus/AgroIA.git"
-  }
+  },
+  {
+  title: "Tienda en Línea para Café Barrios",
+  images: [
+    "imagenes/cafe/cafe1.png",
+    "imagenes/cafe/cafe2.png"
+  ],
+  description: "Plataforma de comercio electrónico desarrollada con Next.js para Café Barrios, diseñada para ofrecer una experiencia de compra moderna, rápida y segura. Incluye autenticación de usuarios, gestión de productos, carrito de compras, aplicación de cupones de descuento, administración y seguimiento de pedidos, múltiples opciones de pago y panel de gestión para la administración del negocio. La solución está optimizada para dispositivos móviles y de escritorio, mejorando la experiencia del cliente y facilitando la operación comercial."
+  ,demoUrl: "https://cafecb.vercel.app/"
+}
 ];
 
 const technologies: Technology[] = [

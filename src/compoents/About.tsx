@@ -33,7 +33,7 @@ export default function About() {
           </h1>
           
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium transition-colors duration-300">
-            Estudiante de 4º año apasionado por crear soluciones escalables. 
+            Estudiante de 5º año apasionado por crear soluciones escalables. 
             Me especializo en el desarrollo Full Stack y tengo un interés creciente 
             en la arquitectura de sistemas y la experiencia de usuario.
           </p>
