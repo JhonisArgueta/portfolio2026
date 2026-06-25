@@ -81,6 +81,8 @@ const technologies: Technology[] = [
   {name:"GitHub",            image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",               category:"otros"},
   {name:"Jenkins",           image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-plain.svg",              category:"otros"},
   {name:"Linux",             image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",                 category:"otros"},
+  {name:"Windows",           image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg",            category:"otros"},
+  {name:"macOS",             image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",                  category:"otros"},
 ];
 
 
